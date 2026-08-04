@@ -91,10 +91,10 @@
                 document.body.classList.toggle('disco');
                 if (document.body.classList.contains('disco')) {
                     const orig = title.innerText;
-                    title.innerText = 'DISCO MODE ✨';
-                    showSiteToast('Disco mode on!');
+                    title.innerText = "CONGRATS, YOU'RE GAY!";
+                    showSiteToast('LGBT mode on!');
                     setTimeout(() => title.innerText = orig, 2500);
-                } else showSiteToast('Disco mode off');
+                } else showSiteToast('LGBT mode off');
             });
         }
 
